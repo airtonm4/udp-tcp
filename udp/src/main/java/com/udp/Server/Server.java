@@ -26,5 +26,6 @@ public class Server extends Thread {
             Timestamp timestamp = new Timestamp(System.currentTimeMillis());
             System.out.println("[" + timestamp + "] " + address + ":" + port + " - " + clientMessage);
         }
+
     }
 }
